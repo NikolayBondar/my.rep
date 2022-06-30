@@ -1,3 +1,12 @@
 #!/bin/bash
-echo "Welcome to DevOps!!!"
-echo "Today is the third day of training."
+echo "Текущий каталог:"
+pwd
+echo "Текущий пользователь:"
+whoami
+echo "Информация об ОС:"
+uname -a
+echo "Список процессов:"
+ps -ef
+echo "Состояние дисков:"
+df -h
+./Source/main.sh
