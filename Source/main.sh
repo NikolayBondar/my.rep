@@ -9,4 +9,4 @@ echo "Список процессов:"
 ps -ef
 echo "Состояние дисков:"
 df -h
-./Source/main.sh
+
